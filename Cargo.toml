@@ -1,0 +1,16 @@
+[package]
+name = "wraith-render"
+version = "0.1.0"
+edition = "2021"
+description = "no_std HTML to text-mode character grid renderer"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/suhteevah/wraith-render"
+keywords = ["html", "renderer", "text-mode", "no_std", "terminal"]
+categories = ["no-std", "text-processing", "web-programming"]
+rust-version = "1.65"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
